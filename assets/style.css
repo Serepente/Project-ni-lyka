@@ -79,8 +79,8 @@
 }
 .title1{
     font-size: 70px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-family: "Merienda", cursive;
+    font-weight: 700;
     font-style: normal;
     color: #000000;
 }
@@ -177,7 +177,46 @@
     text-align: center;
     color: #ffff;
 }
+.apps-section {
+  background-image: url("../assets/img/bg2.jpg");
+  background-size: cover;
+}
+.apps-text {
+   font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+}
 
+.apps-modal-btn{
+  background-color: #84ceeb; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.dl-modal-btn{
+  background-color: #84ceeb; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
 
 .footer{
     background-color: #8860d0;
@@ -197,6 +236,9 @@
     justify-content: start;
     gap: 10px;
 }
+
+
+/* Footer */
 
 .social-icons li {
     font-size: 24px;
